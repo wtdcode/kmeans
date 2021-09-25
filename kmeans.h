@@ -7,6 +7,8 @@
 *
 *------------------------------------------------------------------------*/
 
+#ifndef KMEANS_H
+#define KMEANS_H
 
 #include <stdlib.h>
 
@@ -123,3 +125,4 @@ typedef struct kmeans_config
 /* This is where the magic happens. */
 kmeans_result kmeans(kmeans_config *config);
 
+#endif
